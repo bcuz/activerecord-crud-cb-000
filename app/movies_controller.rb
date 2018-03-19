@@ -40,7 +40,6 @@ def can_be_created_in_a_block(args = {title: 'Home Alone', release_date: 1990})
     # how can a movie receive a title w/o receving anything?
     m.title = args['title']
     m.release_date = args['release_date']
-
     # m is a movie
   end
 end
