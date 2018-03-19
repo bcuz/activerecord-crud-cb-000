@@ -19,7 +19,7 @@ def can_be_created_with_a_hash_of_attributes
       lead: "Paul Newman",
       in_theaters: false
   }
-  movie = Movie.new(attributes['title'], attributes['release_date'], attributes['title'], attributes['title'], attributes['title'])
+  movie = Movie.new(attributes['title'], attributes['release_date'], attributes['director'], attributes['title'], attributes['title'])
 
   # whats the initialize fc look like?
 
