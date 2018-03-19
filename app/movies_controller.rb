@@ -38,7 +38,7 @@ def can_be_created_in_a_block(args = {title:, release_date:})
     # binding.pry
 
     # how can a movie receive a title w/o receving anything?
-    m
+    m.title = 
 
     # m is a movie
   end
