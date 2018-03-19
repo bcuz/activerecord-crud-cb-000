@@ -36,6 +36,8 @@ def can_be_created_in_a_block(args = {})
     # i dont know what is going on
 
     binding.pry
+
+    # how can a movie receive a title w/o receving anything?
     m
 
     # m is a movie
