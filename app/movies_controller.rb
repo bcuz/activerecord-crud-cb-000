@@ -21,6 +21,7 @@ def can_be_created_with_a_hash_of_attributes
   }
   movie = Movie.new(attributes)
   movie.save
+  movie
 
   # whats the initialize fc look like?
 
