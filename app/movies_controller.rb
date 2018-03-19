@@ -22,6 +22,10 @@ def can_be_created_with_a_hash_of_attributes
   # movie = __
 
   # whats the initialize fc look like?
+
+#   attributes.each do |attribute, element|
+#   message.send((attribute + '=').to_sym, hash_map[element])
+# end
 end
 
 # def can_be_created_in_a_block(args = {__})
