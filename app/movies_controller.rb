@@ -31,14 +31,14 @@ def can_be_created_with_a_hash_of_attributes
 end
 
 # def can_be_created_in_a_block(args = {__})
-def can_be_created_in_a_block(args = {title:, release_date:})
+def can_be_created_in_a_block(args = {title: 'Home Alone', release_date:})
   Movie.create do |m|
     # i dont know what is going on
 
     # binding.pry
 
     # how can a movie receive a title w/o receving anything?
-    m.title = 
+    m.title =
 
     # m is a movie
   end
