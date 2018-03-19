@@ -36,7 +36,6 @@ def can_be_created_in_a_block(title: 'Home Alone', release_date: 1990)
     # i dont know what is going on
 
     # binding.pry
-
     # how can a movie receive a title w/o receving anything?
     m.title = title
     m.release_date = release_date
