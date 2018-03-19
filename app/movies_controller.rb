@@ -33,6 +33,7 @@ end
 # def can_be_created_in_a_block(args = {__})
 def can_be_created_in_a_block(args = {})
   Movie.create do |m|
+    # i dont know what im doing
     m.new
   end
 end
